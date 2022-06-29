@@ -5,7 +5,7 @@ import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 'use-strict';
 const rookout = require('rookout');
 rookout.start({
-token: 3a719ee75d27e810008432f94181c872ef25621f82c3db07def56533444b2f62,
+token: <token>,
 labels:
 {
   "app":"examplenestjs"
