@@ -5,11 +5,7 @@ import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 'use-strict';
 const rookout = require('rookout');
 rookout.start({
-token: <token>,
-labels:
-{
-  "app":"examplenestjs"
-}
+token: '8aca3fd075789d3fe8e126a552aca7fb9582d43b422b7b8564cc65e04fcaa689',labels: {env: 'dev'}})
 
 async function bootstrap() {
   const appOptions = {cors: true};
